@@ -384,6 +384,7 @@ public final class FnvHash {
         long DATE = fnv1a_64_lower("DATE");
         long DATETIME = fnv1a_64_lower("DATETIME");
         long TIME = fnv1a_64_lower("TIME");
+        long ROLE = fnv1a_64_lower("ROLE");
         long TIMESTAMP = fnv1a_64_lower("TIMESTAMP");
         long CLOB = fnv1a_64_lower("CLOB");
         long NCLOB = fnv1a_64_lower("NCLOB");
@@ -444,9 +445,11 @@ public final class FnvHash {
         long LESS = fnv1a_64_lower("LESS");
         long MAXVALUE = fnv1a_64_lower("MAXVALUE");
         long OFFSET = fnv1a_64_lower("OFFSET");
+        long LIMIT = fnv1a_64_lower("LIMIT");
         long RAW = fnv1a_64_lower("RAW");
         long LONG_RAW = fnv1a_64_lower("LONG RAW");
         long LONG = fnv1a_64_lower("LONG");
+        long BYTE = fnv1a_64_lower("BYTE");
         long ROWNUM = fnv1a_64_lower("ROWNUM");
         long SYSDATE = fnv1a_64_lower("SYSDATE");
         long SQLCODE = fnv1a_64_lower("SQLCODE");
@@ -582,6 +585,7 @@ public final class FnvHash {
         long SCHEDULE = fnv1a_64_lower("SCHEDULE");
         long COMPLETION = fnv1a_64_lower("COMPLETION");
         long RENAME = fnv1a_64_lower("RENAME");
+        long DUMP = fnv1a_64_lower("DUMP");
         long AT = fnv1a_64_lower("AT");
         long LANGUAGE = fnv1a_64_lower("LANGUAGE");
         long LOGFILE = fnv1a_64_lower("LOGFILE");
@@ -651,5 +655,6 @@ public final class FnvHash {
         long INCREMENT = fnv1a_64_lower("INCREMENT");
 
         long OVERWRITE = fnv1a_64_lower("OVERWRITE");
+        long FILTER = fnv1a_64_lower("FILTER");
     }
 }
